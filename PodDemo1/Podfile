@@ -1,0 +1,13 @@
+platform :ios, '7.0'
+pod "AFNetworking", "~> 2.0"
+
+pod 'MBProgressHUD', '~> 0.8'
+pod 'HockeyKit', '~> 2.0.7'
+
+pod 'SSToolkit', '~> 2.0.0'
+
+
+
+
+
+
