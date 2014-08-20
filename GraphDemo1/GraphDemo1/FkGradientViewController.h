@@ -1,13 +1,13 @@
 //
-//  FKblendViewController.h
+//  FkGradientViewController.h
 //  GraphDemo1
-//   控制叠加模式
+//
 //  Created by Andrew on 14-8-20.
 //  Copyright (c) 2014年 Andrew. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface FKblendViewController : UIViewController
+@interface FkGradientViewController : UIViewController
 
 @end
