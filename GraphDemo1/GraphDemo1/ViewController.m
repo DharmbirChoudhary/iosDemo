@@ -14,6 +14,7 @@
 #import "DrawARCViewController.h"
 #import "DrawLineViewController.h"
 #import "TransformViewController.h"
+#import "FkGradientViewController.h"
 
 #define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
 #define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
@@ -73,6 +74,13 @@
     [btn5 addTarget:self action:@selector(handerToTransform:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn5];
     
+    UIButton *btn6=[[UIButton alloc]initWithFrame:CGRectMake(10, 100+50+50+50+50+50, SCREEN_WIDTH-20, 30)];
+    [btn6 setTitle:@"渐变颜色" forState:UIControlStateNormal];
+    [btn6 setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
+    btn6.backgroundColor=[UIColor blueColor];
+    [btn6 addTarget:self action:@selector(handerToGradient:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn6];
+    
     
 }
 
@@ -104,6 +112,11 @@
 -(void)handerToTransform:(UIButton*)btn{
     TransformViewController *transformVC=[[TransformViewController alloc]init];
     [self.navigationController pushViewController:transformVC animated:YES];
+}
+
+-(void)handerToGradient:(UIButton*)btn{
+    FkGradientViewController *gradientVC=[[FkGradientViewController alloc]init];
+    [self.navigationController pushViewController:gradientVC animated:YES];
 }
 -(void)drawGraph1{
     View1 *view=[[View1 alloc]initWithFrame:self.view.bounds];
