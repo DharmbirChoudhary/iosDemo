@@ -15,6 +15,7 @@
 #import "DrawLineViewController.h"
 #import "TransformViewController.h"
 #import "FkGradientViewController.h"
+#import "FKPatternViewController.h"
 
 #define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
 #define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
@@ -81,6 +82,13 @@
     [btn6 addTarget:self action:@selector(handerToGradient:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn6];
     
+    UIButton *btn7=[[UIButton alloc]initWithFrame:CGRectMake(10, 100+50+50+50+50+50+50, SCREEN_WIDTH-20, 30)];
+    [btn7 setTitle:@"模式填充" forState:UIControlStateNormal];
+    [btn7 setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
+    btn7.backgroundColor=[UIColor blueColor];
+    [btn7 addTarget:self action:@selector(handerToPattern:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn7];
+    
     
 }
 
@@ -117,6 +125,17 @@
 -(void)handerToGradient:(UIButton*)btn{
     FkGradientViewController *gradientVC=[[FkGradientViewController alloc]init];
     [self.navigationController pushViewController:gradientVC animated:YES];
+}
+/*!
+ *  @brief  模式填充的方法
+ *
+ *  @param btn <#btn description#>
+ *
+ *  @since <#version number#>
+ */
+-(void)handerToPattern:(UIButton*)btn{
+    FKPatternViewController *patternVC=[[FKPatternViewController alloc]init];
+    [self.navigationController pushViewController:patternVC animated:YES];
 }
 -(void)drawGraph1{
     View1 *view=[[View1 alloc]initWithFrame:self.view.bounds];
