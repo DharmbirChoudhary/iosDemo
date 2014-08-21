@@ -1,0 +1,10 @@
+PODS:
+  - HockeyKit (2.0.7)
+
+DEPENDENCIES:
+  - HockeyKit (~> 2.0.7)
+
+SPEC CHECKSUMS:
+  HockeyKit: 4e12409e2943bfab313fb641902d930e7d7b147e
+
+COCOAPODS: 0.33.1
