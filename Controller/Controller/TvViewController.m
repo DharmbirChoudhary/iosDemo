@@ -31,6 +31,7 @@
 {
     [super viewDidLoad];
     
+    _HUDManager=[[MBProgressHUDManager alloc]initWithView:self.view];
     
     UIView *volView=[[UIView alloc]initWithFrame:CGRectMake(54, 64, 72, 125)];
     [self.view addSubview:volView];
@@ -81,6 +82,18 @@
 
 }
 
+
+-(void)viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:animated];
+    [AppDelegate globalDelegate].pType=PTYPE_TV;
+
+    //如果是学习模式
+    if([AppDelegate globalDelegate].isLearningModel){
+        [self.HUDManager showMessage:@"Learning Model"];
+    }else{
+        [self.HUDManager hide];
+    }
+}
 
 - (void)didReceiveMemoryWarning
 {

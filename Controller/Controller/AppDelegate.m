@@ -13,6 +13,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
 //        g_hostIpAddress
         NSString* filePath = [NetWorkDelegate dataFilePath:IP_CACHED_FILE_NAME];
         
@@ -61,6 +62,10 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
++(AppDelegate*)globalDelegate{
+   return [UIApplication sharedApplication].delegate;
 }
 
 @end

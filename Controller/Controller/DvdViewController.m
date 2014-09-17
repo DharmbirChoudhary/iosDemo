@@ -34,13 +34,21 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    _HUDManager=[[MBProgressHUDManager alloc]initWithView:self.view];
+
+    
     // Do any additional setup after loading the view.
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+-(void)viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:animated];
+    [AppDelegate globalDelegate].pType=PTYPE_DVD;
+    //如果是DVD模式
+    if([AppDelegate globalDelegate].isDVDModel){
+        [self.HUDManager showMessage:@"DVD Model"];
+    }else{
+        [self.HUDManager hide];
+    }
 }
 
 /*

@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MBProgressHUDManager.h"
 
 @interface DvdViewController : UIViewController
+@property (nonatomic,strong) MBProgressHUDManager *HUDManager;
 
 @end

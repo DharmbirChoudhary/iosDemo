@@ -11,6 +11,8 @@
 
 @interface SystemSettingViewController ()
 @property (weak, nonatomic) IBOutlet UITextField *m_hostIpAddress;
+@property (strong, nonatomic) IBOutlet UIButton *codeBtn;
+@property (strong, nonatomic) IBOutlet UIButton *quitBtn;
 
 @end
 
@@ -76,23 +78,49 @@
 {
     [super viewDidLoad];
 
-        self.m_hostIpAddress.text = g_hostIpAddress;
+    self.m_hostIpAddress.text = g_hostIpAddress;
+    
+    //添加按钮事件
+    [_codeBtn addTarget:self action:@selector(codeClick:) forControlEvents:UIControlEventTouchUpInside];
+    [_quitBtn addTarget:self action:@selector(quitClick:) forControlEvents:UIControlEventTouchUpInside];
+   
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
+
+
+
+#pragma mark
+#pragma mark--按钮点击
+-(void)codeClick:(UIButton*)btn{
+    
+    PAGETYPE pType=[AppDelegate globalDelegate].pType;
+    if(pType==PTYPE_TV){
+        NSLog(@"TV");
+        [AppDelegate globalDelegate].isLearningModel=YES;
+        self.codeBtn.enabled=NO;
+        [self.tabBarController setSelectedIndex:0];
+    }else if(pType==PTYPE_DVD){
+        [AppDelegate globalDelegate].isDVDModel=YES;
+        self.codeBtn.enabled=NO;
+        [self.tabBarController setSelectedIndex:2];
+
+    }
+  
 }
+-(void)quitClick:(UIButton *)btn{
+    PAGETYPE pType=[AppDelegate globalDelegate].pType;
+    if(pType==PTYPE_TV){
+        NSLog(@"TV");
+        [AppDelegate globalDelegate].isLearningModel=NO;
+        self.codeBtn.enabled=YES;
+        [self.tabBarController setSelectedIndex:0];
 
-/*
-#pragma mark - Navigation
+    }else if(pType==PTYPE_DVD){
+        [AppDelegate globalDelegate].isDVDModel=NO;
+        self.codeBtn.enabled=YES;
+        [self.tabBarController setSelectedIndex:2];
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+    }
+
 }
-*/
-
 @end

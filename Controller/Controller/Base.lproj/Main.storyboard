@@ -17,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="192.168.1.30" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yJw-V7-aVV">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="192.168.1.30" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yJw-V7-aVV">
                                 <rect key="frame" x="139" y="42" width="114" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
@@ -25,17 +25,12 @@
                                     <action selector="changeOk:" destination="cWq-YL-3VQ" eventType="editingDidEndOnExit" id="x3c-no-0W4"/>
                                 </connections>
                             </textField>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="GateWay:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7vo-M8-fPX">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="GateWay:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7vo-M8-fPX">
                                 <rect key="frame" x="61" y="45" width="90" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Notes:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OeU-Lu-z49">
-                                <rect key="frame" x="38" y="149" width="90" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" tag="99" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0DJ-X1-tm7">
+                            <button opaque="NO" tag="99" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0DJ-X1-tm7">
                                 <rect key="frame" x="61" y="74" width="192" height="30"/>
                                 <color key="backgroundColor" red="0.9073905109" green="0.81244297450000003" blue="0.68438948300000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="CODE LEARNING">
@@ -45,7 +40,7 @@
                                     <action selector="triggSignal:" destination="cWq-YL-3VQ" eventType="touchUpInside" id="221-pv-N8y"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="98" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yau-6S-UID">
+                            <button opaque="NO" tag="98" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yau-6S-UID">
                                 <rect key="frame" x="61" y="116" width="192" height="30"/>
                                 <color key="backgroundColor" red="0.9073905109" green="0.81244297450000003" blue="0.68438948300000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="QUIT LEARNING">
@@ -55,19 +50,16 @@
                                     <action selector="triggSignal:" destination="cWq-YL-3VQ" eventType="touchUpInside" id="vtj-FO-Htt"/>
                                 </connections>
                             </button>
-                            <tableViewCell contentMode="scaleToFill" misplaced="YES" selectionStyle="default" indentationWidth="10" translatesAutoresizingMaskIntoConstraints="NO" id="OQu-bR-ajO">
-                                <rect key="frame" x="-151" y="305" width="320" height="44"/>
+                            <tableViewCell contentMode="scaleToFill" fixedFrame="YES" selectionStyle="default" indentationWidth="10" translatesAutoresizingMaskIntoConstraints="NO" id="OQu-bR-ajO">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="OQu-bR-ajO" id="Chq-E3-7Tb">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="96"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" pagingEnabled="YES" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7dG-fs-c3C">
-                                <rect key="frame" x="43" y="129" width="234" height="319"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" pagingEnabled="YES" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7dG-fs-c3C">
+                                <rect key="frame" x="43" y="154" width="234" height="270"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="319" id="y6c-QW-WXi"/>
-                                </constraints>
                                 <string key="text">Content of the Notes
 
 In order to use TV and DVD control, 'CODE LEARNING' has to be done first. Select TV or DVD control tab, then press 'CODE LEARNING' from Menu. Once selected, 
@@ -82,28 +74,15 @@ At this stage, LED is fleshing, you can quit 'LEARNING MODE' by pressing 'QUIT L
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="0DJ-X1-tm7" firstAttribute="top" secondItem="7vo-M8-fPX" secondAttribute="bottom" constant="8" symbolic="YES" id="ASf-Jd-Wgo"/>
-                            <constraint firstItem="0DJ-X1-tm7" firstAttribute="top" secondItem="yJw-V7-aVV" secondAttribute="bottom" constant="2" id="CAa-4D-nGn"/>
-                            <constraint firstItem="0DJ-X1-tm7" firstAttribute="trailing" secondItem="yau-6S-UID" secondAttribute="trailing" id="FFr-tZ-rXQ"/>
-                            <constraint firstItem="0DJ-X1-tm7" firstAttribute="leading" secondItem="yau-6S-UID" secondAttribute="leading" id="IzB-59-L0M"/>
-                            <constraint firstItem="7dG-fs-c3C" firstAttribute="centerX" secondItem="nwt-gK-j7o" secondAttribute="centerX" id="QHe-HV-p7P"/>
-                            <constraint firstAttribute="bottom" secondItem="7dG-fs-c3C" secondAttribute="bottom" constant="50" id="SmZ-eT-iIP"/>
-                            <constraint firstItem="OQu-bR-ajO" firstAttribute="leading" secondItem="nwt-gK-j7o" secondAttribute="leading" id="UTl-oA-5qs"/>
-                            <constraint firstItem="7vo-M8-fPX" firstAttribute="top" secondItem="OQu-bR-ajO" secondAttribute="bottom" constant="1" id="WQT-On-RuU"/>
-                            <constraint firstItem="OQu-bR-ajO" firstAttribute="top" secondItem="nwt-gK-j7o" secondAttribute="top" id="XVV-5H-vBB"/>
-                            <constraint firstItem="0DJ-X1-tm7" firstAttribute="leading" secondItem="nwt-gK-j7o" secondAttribute="leading" constant="61" id="bPQ-79-6PJ"/>
-                            <constraint firstItem="0DJ-X1-tm7" firstAttribute="trailing" secondItem="yJw-V7-aVV" secondAttribute="trailing" id="eqg-ku-TVt"/>
-                            <constraint firstAttribute="trailing" secondItem="0DJ-X1-tm7" secondAttribute="trailing" constant="67" id="go2-wb-fv7"/>
-                            <constraint firstItem="7dG-fs-c3C" firstAttribute="top" secondItem="0DJ-X1-tm7" secondAttribute="bottom" constant="25" id="kTo-Ze-Bhd"/>
-                            <constraint firstItem="yau-6S-UID" firstAttribute="top" secondItem="0DJ-X1-tm7" secondAttribute="bottom" constant="12" id="mat-2H-wHS"/>
-                            <constraint firstItem="7dG-fs-c3C" firstAttribute="centerX" secondItem="OQu-bR-ajO" secondAttribute="centerX" id="p15-n6-3Qd"/>
-                            <constraint firstItem="0DJ-X1-tm7" firstAttribute="leading" secondItem="7vo-M8-fPX" secondAttribute="leading" id="xyN-pz-kI6"/>
-                            <constraint firstItem="7dG-fs-c3C" firstAttribute="leading" secondItem="nwt-gK-j7o" secondAttribute="leading" constant="43" id="yJJ-Up-hX9"/>
+                            <constraint firstItem="7dG-fs-c3C" firstAttribute="top" secondItem="nwt-gK-j7o" secondAttribute="top" constant="154" id="ezM-cO-nLp"/>
+                            <constraint firstAttribute="bottom" secondItem="7dG-fs-c3C" secondAttribute="bottom" constant="56" id="kNc-zN-ARm"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" systemItem="featured" id="AQL-a5-qRh"/>
                     <connections>
+                        <outlet property="codeBtn" destination="0DJ-X1-tm7" id="7lu-Qt-P2U"/>
                         <outlet property="m_hostIpAddress" destination="yJw-V7-aVV" id="clu-rY-KTz"/>
+                        <outlet property="quitBtn" destination="yau-6S-UID" id="LAb-5a-sSU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="COV-DG-0Mg" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -113,7 +92,7 @@ At this stage, LED is fleshing, you can quit 'LEARNING MODE' by pressing 'QUIT L
         <!--Tv View Controller - First-->
         <scene sceneID="W3I-pn-N6e">
             <objects>
-                <viewController title="First" id="CZ4-MO-1fc" customClass="TvViewController" sceneMemberID="viewController">
+                <viewController restorationIdentifier="TvViewController" storyboardIdentifier="TvViewController" title="First" id="CZ4-MO-1fc" customClass="TvViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="s9W-kb-ARv"/>
                         <viewControllerLayoutGuide type="bottom" id="dtj-EO-iXF"/>
@@ -306,7 +285,7 @@ At this stage, LED is fleshing, you can quit 'LEARNING MODE' by pressing 'QUIT L
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" tag="81" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y1c-6e-anT">
-                                <rect key="frame" x="33" y="26" width="61" height="40"/>
+                                <rect key="frame" x="33" y="61" width="61" height="40"/>
                                 <state key="normal" backgroundImage="CURTAIN_11.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -315,7 +294,7 @@ At this stage, LED is fleshing, you can quit 'LEARNING MODE' by pressing 'QUIT L
                                 </connections>
                             </button>
                             <button opaque="NO" tag="84" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aD1-yl-wWV">
-                                <rect key="frame" x="130" y="26" width="61" height="40"/>
+                                <rect key="frame" x="130" y="61" width="61" height="40"/>
                                 <state key="normal" backgroundImage="CURTAIN_11.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -324,7 +303,7 @@ At this stage, LED is fleshing, you can quit 'LEARNING MODE' by pressing 'QUIT L
                                 </connections>
                             </button>
                             <button opaque="NO" tag="87" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ohX-vA-Jpb">
-                                <rect key="frame" x="229" y="26" width="61" height="40"/>
+                                <rect key="frame" x="229" y="61" width="61" height="40"/>
                                 <state key="normal" backgroundImage="CURTAIN_11.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -333,7 +312,7 @@ At this stage, LED is fleshing, you can quit 'LEARNING MODE' by pressing 'QUIT L
                                 </connections>
                             </button>
                             <button opaque="NO" tag="82" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Jp-VO-xGw">
-                                <rect key="frame" x="33" y="89" width="61" height="40"/>
+                                <rect key="frame" x="33" y="124" width="61" height="40"/>
                                 <state key="normal" backgroundImage="CURTAIN_29.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -342,7 +321,7 @@ At this stage, LED is fleshing, you can quit 'LEARNING MODE' by pressing 'QUIT L
                                 </connections>
                             </button>
                             <button opaque="NO" tag="85" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h74-4g-FbH">
-                                <rect key="frame" x="130" y="89" width="61" height="40"/>
+                                <rect key="frame" x="130" y="124" width="61" height="40"/>
                                 <state key="normal" backgroundImage="CURTAIN_29.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -351,7 +330,7 @@ At this stage, LED is fleshing, you can quit 'LEARNING MODE' by pressing 'QUIT L
                                 </connections>
                             </button>
                             <button opaque="NO" tag="88" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kfJ-52-0Fu">
-                                <rect key="frame" x="229" y="89" width="61" height="40"/>
+                                <rect key="frame" x="229" y="124" width="61" height="40"/>
                                 <state key="normal" backgroundImage="CURTAIN_29.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -360,7 +339,7 @@ At this stage, LED is fleshing, you can quit 'LEARNING MODE' by pressing 'QUIT L
                                 </connections>
                             </button>
                             <button opaque="NO" tag="83" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HO1-B2-ciU">
-                                <rect key="frame" x="33" y="154" width="61" height="40"/>
+                                <rect key="frame" x="33" y="189" width="61" height="40"/>
                                 <state key="normal" backgroundImage="CURTAIN_35.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -369,7 +348,7 @@ At this stage, LED is fleshing, you can quit 'LEARNING MODE' by pressing 'QUIT L
                                 </connections>
                             </button>
                             <button opaque="NO" tag="86" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XXe-DS-wGy">
-                                <rect key="frame" x="130" y="154" width="61" height="40"/>
+                                <rect key="frame" x="130" y="189" width="61" height="40"/>
                                 <state key="normal" backgroundImage="CURTAIN_35.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -378,7 +357,7 @@ At this stage, LED is fleshing, you can quit 'LEARNING MODE' by pressing 'QUIT L
                                 </connections>
                             </button>
                             <button opaque="NO" tag="89" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nVe-W7-dqh">
-                                <rect key="frame" x="229" y="154" width="61" height="40"/>
+                                <rect key="frame" x="229" y="189" width="61" height="40"/>
                                 <state key="normal" backgroundImage="CURTAIN_35.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -387,7 +366,7 @@ At this stage, LED is fleshing, you can quit 'LEARNING MODE' by pressing 'QUIT L
                                 </connections>
                             </button>
                             <button opaque="NO" tag="90" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ffT-aL-iHF">
-                                <rect key="frame" x="33" y="247" width="61" height="40"/>
+                                <rect key="frame" x="33" y="282" width="61" height="40"/>
                                 <state key="normal" backgroundImage="CURTAIN_46.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -396,7 +375,7 @@ At this stage, LED is fleshing, you can quit 'LEARNING MODE' by pressing 'QUIT L
                                 </connections>
                             </button>
                             <button opaque="NO" tag="91" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yWO-9Z-zuQ">
-                                <rect key="frame" x="130" y="247" width="61" height="40"/>
+                                <rect key="frame" x="130" y="282" width="61" height="40"/>
                                 <state key="normal" backgroundImage="CURTAIN_29.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -405,7 +384,7 @@ At this stage, LED is fleshing, you can quit 'LEARNING MODE' by pressing 'QUIT L
                                 </connections>
                             </button>
                             <button opaque="NO" tag="92" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bnm-aE-L3m">
-                                <rect key="frame" x="229" y="247" width="61" height="40"/>
+                                <rect key="frame" x="229" y="282" width="61" height="40"/>
                                 <state key="normal" backgroundImage="CURTAIN_48.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -414,7 +393,7 @@ At this stage, LED is fleshing, you can quit 'LEARNING MODE' by pressing 'QUIT L
                                 </connections>
                             </button>
                             <button opaque="NO" tag="93" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KTD-mG-EKe">
-                                <rect key="frame" x="33" y="304" width="61" height="40"/>
+                                <rect key="frame" x="33" y="339" width="61" height="40"/>
                                 <state key="normal" backgroundImage="CURTAIN_46.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -423,7 +402,7 @@ At this stage, LED is fleshing, you can quit 'LEARNING MODE' by pressing 'QUIT L
                                 </connections>
                             </button>
                             <button opaque="NO" tag="94" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wsx-6s-ca4">
-                                <rect key="frame" x="130" y="304" width="61" height="40"/>
+                                <rect key="frame" x="130" y="339" width="61" height="40"/>
                                 <state key="normal" backgroundImage="CURTAIN_29.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -432,7 +411,7 @@ At this stage, LED is fleshing, you can quit 'LEARNING MODE' by pressing 'QUIT L
                                 </connections>
                             </button>
                             <button opaque="NO" tag="95" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mLj-dW-exJ">
-                                <rect key="frame" x="229" y="304" width="61" height="40"/>
+                                <rect key="frame" x="229" y="339" width="61" height="40"/>
                                 <state key="normal" backgroundImage="CURTAIN_48.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -462,7 +441,7 @@ At this stage, LED is fleshing, you can quit 'LEARNING MODE' by pressing 'QUIT L
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" tag="51" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9yJ-Fe-JuL">
-                                <rect key="frame" x="20" y="33" width="47" height="47"/>
+                                <rect key="frame" x="20" y="43" width="47" height="47"/>
                                 <state key="normal" backgroundImage="DVD_06.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -471,7 +450,7 @@ At this stage, LED is fleshing, you can quit 'LEARNING MODE' by pressing 'QUIT L
                                 </connections>
                             </button>
                             <button opaque="NO" tag="52" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qal-6Q-PR6">
-                                <rect key="frame" x="177" y="32" width="123" height="48"/>
+                                <rect key="frame" x="177" y="42" width="123" height="48"/>
                                 <state key="normal" backgroundImage="DVD_03.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -480,7 +459,7 @@ At this stage, LED is fleshing, you can quit 'LEARNING MODE' by pressing 'QUIT L
                                 </connections>
                             </button>
                             <button opaque="NO" tag="57" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7yo-77-dq3">
-                                <rect key="frame" x="41" y="185" width="61" height="40"/>
+                                <rect key="frame" x="41" y="277" width="61" height="40"/>
                                 <state key="normal" backgroundImage="DVD_11.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -489,7 +468,7 @@ At this stage, LED is fleshing, you can quit 'LEARNING MODE' by pressing 'QUIT L
                                 </connections>
                             </button>
                             <button opaque="NO" tag="53" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Yu-fM-idm">
-                                <rect key="frame" x="130" y="185" width="61" height="40"/>
+                                <rect key="frame" x="130" y="277" width="61" height="40"/>
                                 <state key="normal" backgroundImage="DVD_13.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -498,7 +477,7 @@ At this stage, LED is fleshing, you can quit 'LEARNING MODE' by pressing 'QUIT L
                                 </connections>
                             </button>
                             <button opaque="NO" tag="56" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pUK-j4-UeO">
-                                <rect key="frame" x="215" y="185" width="61" height="40"/>
+                                <rect key="frame" x="215" y="277" width="61" height="40"/>
                                 <state key="normal" backgroundImage="DVD_15.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -507,7 +486,7 @@ At this stage, LED is fleshing, you can quit 'LEARNING MODE' by pressing 'QUIT L
                                 </connections>
                             </button>
                             <button opaque="NO" tag="59" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cEJ-sX-bPt">
-                                <rect key="frame" x="20" y="247" width="61" height="40"/>
+                                <rect key="frame" x="20" y="339" width="61" height="40"/>
                                 <state key="normal" backgroundImage="DVD_21.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -516,7 +495,7 @@ At this stage, LED is fleshing, you can quit 'LEARNING MODE' by pressing 'QUIT L
                                 </connections>
                             </button>
                             <button opaque="NO" tag="54" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Vu-ZQ-H4I">
-                                <rect key="frame" x="89" y="247" width="61" height="40"/>
+                                <rect key="frame" x="89" y="339" width="61" height="40"/>
                                 <state key="normal" backgroundImage="DVD_23.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -525,7 +504,7 @@ At this stage, LED is fleshing, you can quit 'LEARNING MODE' by pressing 'QUIT L
                                 </connections>
                             </button>
                             <button opaque="NO" tag="55" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eaz-Xe-ec1">
-                                <rect key="frame" x="163" y="247" width="61" height="40"/>
+                                <rect key="frame" x="163" y="339" width="61" height="40"/>
                                 <state key="normal" backgroundImage="DVD_25.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -534,7 +513,7 @@ At this stage, LED is fleshing, you can quit 'LEARNING MODE' by pressing 'QUIT L
                                 </connections>
                             </button>
                             <button opaque="NO" tag="58" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OIk-7H-hBg">
-                                <rect key="frame" x="239" y="247" width="61" height="40"/>
+                                <rect key="frame" x="239" y="339" width="61" height="40"/>
                                 <state key="normal" backgroundImage="DVD_27.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -564,7 +543,7 @@ At this stage, LED is fleshing, you can quit 'LEARNING MODE' by pressing 'QUIT L
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" tag="71" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1h0-kX-CeM">
-                                <rect key="frame" x="55" y="17" width="61" height="40"/>
+                                <rect key="frame" x="55" y="72" width="61" height="40"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="71" backgroundImage="LIGHT_03.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -574,7 +553,7 @@ At this stage, LED is fleshing, you can quit 'LEARNING MODE' by pressing 'QUIT L
                                 </connections>
                             </button>
                             <button opaque="NO" tag="72" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A5k-ju-p1X">
-                                <rect key="frame" x="213" y="17" width="61" height="40"/>
+                                <rect key="frame" x="213" y="72" width="61" height="40"/>
                                 <state key="normal" title="72" backgroundImage="LIGHT_03.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -583,13 +562,13 @@ At this stage, LED is fleshing, you can quit 'LEARNING MODE' by pressing 'QUIT L
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="MB" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nnn-nJ-j1n">
-                                <rect key="frame" x="140" y="31" width="46" height="21"/>
+                                <rect key="frame" x="140" y="86" width="46" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="73" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SVm-6K-TA2">
-                                <rect key="frame" x="55" y="81" width="61" height="40"/>
+                                <rect key="frame" x="55" y="136" width="61" height="40"/>
                                 <state key="normal" title="73" backgroundImage="LIGHT_03.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -598,7 +577,7 @@ At this stage, LED is fleshing, you can quit 'LEARNING MODE' by pressing 'QUIT L
                                 </connections>
                             </button>
                             <button opaque="NO" tag="74" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5QQ-34-Vbp">
-                                <rect key="frame" x="213" y="80" width="61" height="40"/>
+                                <rect key="frame" x="213" y="135" width="61" height="40"/>
                                 <state key="normal" title="74" backgroundImage="LIGHT_03.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -607,13 +586,13 @@ At this stage, LED is fleshing, you can quit 'LEARNING MODE' by pressing 'QUIT L
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="LR" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C2F-qp-6Iw">
-                                <rect key="frame" x="140" y="95" width="46" height="21"/>
+                                <rect key="frame" x="140" y="150" width="46" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="75" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aeC-hC-wmK">
-                                <rect key="frame" x="55" y="146" width="61" height="40"/>
+                                <rect key="frame" x="55" y="201" width="61" height="40"/>
                                 <state key="normal" title="75" backgroundImage="LIGHT_03.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -622,7 +601,7 @@ At this stage, LED is fleshing, you can quit 'LEARNING MODE' by pressing 'QUIT L
                                 </connections>
                             </button>
                             <button opaque="NO" tag="76" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X9t-Ga-fNL">
-                                <rect key="frame" x="213" y="145" width="61" height="40"/>
+                                <rect key="frame" x="213" y="200" width="61" height="40"/>
                                 <state key="normal" title="76" backgroundImage="LIGHT_03.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -631,13 +610,13 @@ At this stage, LED is fleshing, you can quit 'LEARNING MODE' by pressing 'QUIT L
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CM1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mxr-uR-BCx">
-                                <rect key="frame" x="140" y="160" width="46" height="21"/>
+                                <rect key="frame" x="140" y="215" width="46" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="77" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zjD-yD-66d">
-                                <rect key="frame" x="55" y="213" width="61" height="40"/>
+                                <rect key="frame" x="55" y="268" width="61" height="40"/>
                                 <state key="normal" title="77" backgroundImage="LIGHT_03.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -646,7 +625,7 @@ At this stage, LED is fleshing, you can quit 'LEARNING MODE' by pressing 'QUIT L
                                 </connections>
                             </button>
                             <button opaque="NO" tag="78" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UUr-Jd-pW1">
-                                <rect key="frame" x="213" y="213" width="61" height="40"/>
+                                <rect key="frame" x="213" y="268" width="61" height="40"/>
                                 <state key="normal" title="78" backgroundImage="LIGHT_03.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -655,13 +634,13 @@ At this stage, LED is fleshing, you can quit 'LEARNING MODE' by pressing 'QUIT L
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CM2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vTS-2z-Pyt">
-                                <rect key="frame" x="140" y="229" width="46" height="21"/>
+                                <rect key="frame" x="140" y="284" width="46" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="79" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sag-K2-Fsl">
-                                <rect key="frame" x="37" y="299" width="96" height="48"/>
+                                <rect key="frame" x="37" y="354" width="96" height="48"/>
                                 <state key="normal" backgroundImage="LIGHT_07.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -670,7 +649,7 @@ At this stage, LED is fleshing, you can quit 'LEARNING MODE' by pressing 'QUIT L
                                 </connections>
                             </button>
                             <button opaque="NO" tag="80" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OM4-id-Bbn">
-                                <rect key="frame" x="195" y="299" width="96" height="48"/>
+                                <rect key="frame" x="195" y="354" width="96" height="48"/>
                                 <state key="normal" backgroundImage="LIGHT_09.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>

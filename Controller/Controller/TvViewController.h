@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MBProgressHUDManager.h"
 
 @interface TvViewController : UIViewController
+@property (nonatomic,strong) MBProgressHUDManager *HUDManager;
 
 @end

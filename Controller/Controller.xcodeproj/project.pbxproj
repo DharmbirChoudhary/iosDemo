@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6503134319C9902300A52F4B /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 6503134019C9902300A52F4B /* MBProgressHUD.m */; };
+		6503134419C9902300A52F4B /* MBProgressHUDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6503134219C9902300A52F4B /* MBProgressHUDManager.m */; };
+		6503134B19C9903100A52F4B /* 37x-Checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 6503134519C9903100A52F4B /* 37x-Checkmark.png */; };
+		6503134C19C9903100A52F4B /* 37x-Checkmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6503134619C9903100A52F4B /* 37x-Checkmark@2x.png */; };
+		6503134D19C9903100A52F4B /* 37x-Error.png in Resources */ = {isa = PBXBuildFile; fileRef = 6503134719C9903100A52F4B /* 37x-Error.png */; };
+		6503134E19C9903100A52F4B /* 37x-Error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6503134819C9903100A52F4B /* 37x-Error@2x.png */; };
+		6503134F19C9903100A52F4B /* 37x-success.png in Resources */ = {isa = PBXBuildFile; fileRef = 6503134919C9903100A52F4B /* 37x-success.png */; };
+		6503135019C9903100A52F4B /* 37x-success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6503134A19C9903100A52F4B /* 37x-success@2x.png */; };
 		652A087119B6E18A001E6125 /* CURTAIN_11@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 652A085E19B6E18A001E6125 /* CURTAIN_11@2x.png */; };
 		652A087219B6E18A001E6125 /* CURTAIN_29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 652A085F19B6E18A001E6125 /* CURTAIN_29@2x.png */; };
 		652A087319B6E18A001E6125 /* CURTAIN_35@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 652A086019B6E18A001E6125 /* CURTAIN_35@2x.png */; };
@@ -67,6 +75,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6503133F19C9902300A52F4B /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		6503134019C9902300A52F4B /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		6503134119C9902300A52F4B /* MBProgressHUDManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUDManager.h; sourceTree = "<group>"; };
+		6503134219C9902300A52F4B /* MBProgressHUDManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUDManager.m; sourceTree = "<group>"; };
+		6503134519C9903100A52F4B /* 37x-Checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "37x-Checkmark.png"; sourceTree = "<group>"; };
+		6503134619C9903100A52F4B /* 37x-Checkmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "37x-Checkmark@2x.png"; sourceTree = "<group>"; };
+		6503134719C9903100A52F4B /* 37x-Error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "37x-Error.png"; sourceTree = "<group>"; };
+		6503134819C9903100A52F4B /* 37x-Error@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "37x-Error@2x.png"; sourceTree = "<group>"; };
+		6503134919C9903100A52F4B /* 37x-success.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "37x-success.png"; sourceTree = "<group>"; };
+		6503134A19C9903100A52F4B /* 37x-success@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "37x-success@2x.png"; sourceTree = "<group>"; };
 		650E237E19C95C330027AF5A /* GlobalConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlobalConfig.h; sourceTree = "<group>"; };
 		652A085E19B6E18A001E6125 /* CURTAIN_11@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CURTAIN_11@2x.png"; sourceTree = "<group>"; };
 		652A085F19B6E18A001E6125 /* CURTAIN_29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CURTAIN_29@2x.png"; sourceTree = "<group>"; };
@@ -153,6 +171,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6503133D19C98FFF00A52F4B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				6503133E19C9900D00A52F4B /* MBProcess */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		6503133E19C9900D00A52F4B /* MBProcess */ = {
+			isa = PBXGroup;
+			children = (
+				6503134519C9903100A52F4B /* 37x-Checkmark.png */,
+				6503134619C9903100A52F4B /* 37x-Checkmark@2x.png */,
+				6503134719C9903100A52F4B /* 37x-Error.png */,
+				6503134819C9903100A52F4B /* 37x-Error@2x.png */,
+				6503134919C9903100A52F4B /* 37x-success.png */,
+				6503134A19C9903100A52F4B /* 37x-success@2x.png */,
+				6503133F19C9902300A52F4B /* MBProgressHUD.h */,
+				6503134019C9902300A52F4B /* MBProgressHUD.m */,
+				6503134119C9902300A52F4B /* MBProgressHUDManager.h */,
+				6503134219C9902300A52F4B /* MBProgressHUDManager.m */,
+			);
+			name = MBProcess;
+			sourceTree = "<group>";
+		};
 		652A085D19B6E18A001E6125 /* curtain */ = {
 			isa = PBXGroup;
 			children = (
@@ -213,6 +256,7 @@
 		81BCFA8A19A9F50300C68737 = {
 			isa = PBXGroup;
 			children = (
+				6503133D19C98FFF00A52F4B /* Utils */,
 				81DE9AFA19AA319C000D9B71 /* network */,
 				81BCFA9C19A9F50300C68737 /* Controller */,
 				81BCFABE19A9F50300C68737 /* ControllerTests */,
@@ -386,6 +430,7 @@
 				652A087D19B6E18A001E6125 /* DVD_25@2x.png in Resources */,
 				65CF6AC319BED2F300CDAF76 /* CURTAIN_46@2x.png in Resources */,
 				81BCFAB219A9F50300C68737 /* Images.xcassets in Resources */,
+				6503134E19C9903100A52F4B /* 37x-Error@2x.png in Resources */,
 				653F918919B45C5600A86E65 /* bg@2x.png in Resources */,
 				653F917F19B4443D00A86E65 /* down@2x.png in Resources */,
 				653F918719B45C5000A86E65 /* tvVid@2x.png in Resources */,
@@ -396,7 +441,10 @@
 				652A087219B6E18A001E6125 /* CURTAIN_29@2x.png in Resources */,
 				652A087819B6E18A001E6125 /* DVD_11@2x.png in Resources */,
 				652A088119B6E18A001E6125 /* LIGHT_09@2x.png in Resources */,
+				6503134C19C9903100A52F4B /* 37x-Checkmark@2x.png in Resources */,
 				653F918219B4459600A86E65 /* voice@2x.png in Resources */,
+				6503134B19C9903100A52F4B /* 37x-Checkmark.png in Resources */,
+				6503135019C9903100A52F4B /* 37x-success@2x.png in Resources */,
 				652A087B19B6E18A001E6125 /* DVD_21@2x.png in Resources */,
 				652A087719B6E18A001E6125 /* DVD_06@2x.png in Resources */,
 				652A087919B6E18A001E6125 /* DVD_13@2x.png in Resources */,
@@ -406,7 +454,9 @@
 				652A087C19B6E18A001E6125 /* DVD_23@2x.png in Resources */,
 				652A087A19B6E18A001E6125 /* DVD_15@2x.png in Resources */,
 				652A087319B6E18A001E6125 /* CURTAIN_35@2x.png in Resources */,
+				6503134D19C9903100A52F4B /* 37x-Error.png in Resources */,
 				652A087F19B6E18A001E6125 /* LIGHT_03@2x.png in Resources */,
+				6503134F19C9903100A52F4B /* 37x-success.png in Resources */,
 				652A088019B6E18A001E6125 /* LIGHT_07@2x.png in Resources */,
 				653F917B19B4412A00A86E65 /* onOrOff@2x.png in Resources */,
 				652A087619B6E18A001E6125 /* DVD_03@2x.png in Resources */,
@@ -434,6 +484,8 @@
 				81DE9B0319AA31AE000D9B71 /* NetWorkDelegate.m in Sources */,
 				81DE9B0919AADE92000D9B71 /* SystemSettingViewController.m in Sources */,
 				81BCFAD319A9F5A100C68737 /* CurtainViewController.m in Sources */,
+				6503134319C9902300A52F4B /* MBProgressHUD.m in Sources */,
+				6503134419C9902300A52F4B /* MBProgressHUDManager.m in Sources */,
 				81BCFAD019A9F59400C68737 /* DvdViewController.m in Sources */,
 				81DE9B0219AA31AE000D9B71 /* AsyncUdpSocket.m in Sources */,
 				81BCFAA719A9F50300C68737 /* AppDelegate.m in Sources */,
