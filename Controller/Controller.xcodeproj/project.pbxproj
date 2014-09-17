@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		652A087119B6E18A001E6125 /* CURTAIN_11@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 652A085E19B6E18A001E6125 /* CURTAIN_11@2x.png */; };
+		652A087219B6E18A001E6125 /* CURTAIN_29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 652A085F19B6E18A001E6125 /* CURTAIN_29@2x.png */; };
+		652A087319B6E18A001E6125 /* CURTAIN_35@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 652A086019B6E18A001E6125 /* CURTAIN_35@2x.png */; };
+		652A087619B6E18A001E6125 /* DVD_03@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 652A086419B6E18A001E6125 /* DVD_03@2x.png */; };
+		652A087719B6E18A001E6125 /* DVD_06@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 652A086519B6E18A001E6125 /* DVD_06@2x.png */; };
+		652A087819B6E18A001E6125 /* DVD_11@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 652A086619B6E18A001E6125 /* DVD_11@2x.png */; };
+		652A087919B6E18A001E6125 /* DVD_13@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 652A086719B6E18A001E6125 /* DVD_13@2x.png */; };
+		652A087A19B6E18A001E6125 /* DVD_15@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 652A086819B6E18A001E6125 /* DVD_15@2x.png */; };
+		652A087B19B6E18A001E6125 /* DVD_21@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 652A086919B6E18A001E6125 /* DVD_21@2x.png */; };
+		652A087C19B6E18A001E6125 /* DVD_23@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 652A086A19B6E18A001E6125 /* DVD_23@2x.png */; };
+		652A087D19B6E18A001E6125 /* DVD_25@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 652A086B19B6E18A001E6125 /* DVD_25@2x.png */; };
+		652A087E19B6E18A001E6125 /* DVD_27@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 652A086C19B6E18A001E6125 /* DVD_27@2x.png */; };
+		652A087F19B6E18A001E6125 /* LIGHT_03@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 652A086E19B6E18A001E6125 /* LIGHT_03@2x.png */; };
+		652A088019B6E18A001E6125 /* LIGHT_07@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 652A086F19B6E18A001E6125 /* LIGHT_07@2x.png */; };
+		652A088119B6E18A001E6125 /* LIGHT_09@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 652A087019B6E18A001E6125 /* LIGHT_09@2x.png */; };
 		653F917B19B4412A00A86E65 /* onOrOff@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 653F917A19B4412A00A86E65 /* onOrOff@2x.png */; };
 		653F917E19B4443D00A86E65 /* up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 653F917C19B4443D00A86E65 /* up@2x.png */; };
 		653F917F19B4443D00A86E65 /* down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 653F917D19B4443D00A86E65 /* down@2x.png */; };
@@ -16,6 +31,8 @@
 		653F918719B45C5000A86E65 /* tvVid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 653F918519B45C5000A86E65 /* tvVid@2x.png */; };
 		653F918919B45C5600A86E65 /* bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 653F918819B45C5600A86E65 /* bg@2x.png */; };
 		653F918B19B45DA800A86E65 /* btnbg.png in Resources */ = {isa = PBXBuildFile; fileRef = 653F918A19B45DA800A86E65 /* btnbg.png */; };
+		65CF6AC319BED2F300CDAF76 /* CURTAIN_46@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65CF6AC119BED2F300CDAF76 /* CURTAIN_46@2x.png */; };
+		65CF6AC419BED2F300CDAF76 /* CURTAIN_48@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65CF6AC219BED2F300CDAF76 /* CURTAIN_48@2x.png */; };
 		81BCFA9719A9F50300C68737 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81BCFA9619A9F50300C68737 /* Foundation.framework */; };
 		81BCFA9919A9F50300C68737 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81BCFA9819A9F50300C68737 /* CoreGraphics.framework */; };
 		81BCFA9B19A9F50300C68737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81BCFA9A19A9F50300C68737 /* UIKit.framework */; };
@@ -50,6 +67,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		650E237E19C95C330027AF5A /* GlobalConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlobalConfig.h; sourceTree = "<group>"; };
+		652A085E19B6E18A001E6125 /* CURTAIN_11@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CURTAIN_11@2x.png"; sourceTree = "<group>"; };
+		652A085F19B6E18A001E6125 /* CURTAIN_29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CURTAIN_29@2x.png"; sourceTree = "<group>"; };
+		652A086019B6E18A001E6125 /* CURTAIN_35@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CURTAIN_35@2x.png"; sourceTree = "<group>"; };
+		652A086419B6E18A001E6125 /* DVD_03@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DVD_03@2x.png"; sourceTree = "<group>"; };
+		652A086519B6E18A001E6125 /* DVD_06@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DVD_06@2x.png"; sourceTree = "<group>"; };
+		652A086619B6E18A001E6125 /* DVD_11@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DVD_11@2x.png"; sourceTree = "<group>"; };
+		652A086719B6E18A001E6125 /* DVD_13@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DVD_13@2x.png"; sourceTree = "<group>"; };
+		652A086819B6E18A001E6125 /* DVD_15@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DVD_15@2x.png"; sourceTree = "<group>"; };
+		652A086919B6E18A001E6125 /* DVD_21@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DVD_21@2x.png"; sourceTree = "<group>"; };
+		652A086A19B6E18A001E6125 /* DVD_23@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DVD_23@2x.png"; sourceTree = "<group>"; };
+		652A086B19B6E18A001E6125 /* DVD_25@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DVD_25@2x.png"; sourceTree = "<group>"; };
+		652A086C19B6E18A001E6125 /* DVD_27@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DVD_27@2x.png"; sourceTree = "<group>"; };
+		652A086E19B6E18A001E6125 /* LIGHT_03@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LIGHT_03@2x.png"; sourceTree = "<group>"; };
+		652A086F19B6E18A001E6125 /* LIGHT_07@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LIGHT_07@2x.png"; sourceTree = "<group>"; };
+		652A087019B6E18A001E6125 /* LIGHT_09@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LIGHT_09@2x.png"; sourceTree = "<group>"; };
 		653F917A19B4412A00A86E65 /* onOrOff@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "onOrOff@2x.png"; sourceTree = "<group>"; };
 		653F917C19B4443D00A86E65 /* up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "up@2x.png"; sourceTree = "<group>"; };
 		653F917D19B4443D00A86E65 /* down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "down@2x.png"; sourceTree = "<group>"; };
@@ -59,6 +92,8 @@
 		653F918519B45C5000A86E65 /* tvVid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tvVid@2x.png"; sourceTree = "<group>"; };
 		653F918819B45C5600A86E65 /* bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg@2x.png"; sourceTree = "<group>"; };
 		653F918A19B45DA800A86E65 /* btnbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnbg.png; sourceTree = "<group>"; };
+		65CF6AC119BED2F300CDAF76 /* CURTAIN_46@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CURTAIN_46@2x.png"; sourceTree = "<group>"; };
+		65CF6AC219BED2F300CDAF76 /* CURTAIN_48@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CURTAIN_48@2x.png"; sourceTree = "<group>"; };
 		81BCFA9319A9F50300C68737 /* Controller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Controller.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81BCFA9619A9F50300C68737 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		81BCFA9819A9F50300C68737 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -118,9 +153,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		652A085D19B6E18A001E6125 /* curtain */ = {
+			isa = PBXGroup;
+			children = (
+				65CF6AC119BED2F300CDAF76 /* CURTAIN_46@2x.png */,
+				65CF6AC219BED2F300CDAF76 /* CURTAIN_48@2x.png */,
+				652A085E19B6E18A001E6125 /* CURTAIN_11@2x.png */,
+				652A085F19B6E18A001E6125 /* CURTAIN_29@2x.png */,
+				652A086019B6E18A001E6125 /* CURTAIN_35@2x.png */,
+			);
+			path = curtain;
+			sourceTree = "<group>";
+		};
+		652A086319B6E18A001E6125 /* dvd */ = {
+			isa = PBXGroup;
+			children = (
+				652A086419B6E18A001E6125 /* DVD_03@2x.png */,
+				652A086519B6E18A001E6125 /* DVD_06@2x.png */,
+				652A086619B6E18A001E6125 /* DVD_11@2x.png */,
+				652A086719B6E18A001E6125 /* DVD_13@2x.png */,
+				652A086819B6E18A001E6125 /* DVD_15@2x.png */,
+				652A086919B6E18A001E6125 /* DVD_21@2x.png */,
+				652A086A19B6E18A001E6125 /* DVD_23@2x.png */,
+				652A086B19B6E18A001E6125 /* DVD_25@2x.png */,
+				652A086C19B6E18A001E6125 /* DVD_27@2x.png */,
+			);
+			path = dvd;
+			sourceTree = "<group>";
+		};
+		652A086D19B6E18A001E6125 /* LIHGHT */ = {
+			isa = PBXGroup;
+			children = (
+				652A086E19B6E18A001E6125 /* LIGHT_03@2x.png */,
+				652A086F19B6E18A001E6125 /* LIGHT_07@2x.png */,
+				652A087019B6E18A001E6125 /* LIGHT_09@2x.png */,
+			);
+			path = LIHGHT;
+			sourceTree = "<group>";
+		};
 		653F917919B4411900A86E65 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				652A085D19B6E18A001E6125 /* curtain */,
+				652A086319B6E18A001E6125 /* dvd */,
+				652A086D19B6E18A001E6125 /* LIHGHT */,
 				653F918A19B45DA800A86E65 /* btnbg.png */,
 				653F918819B45C5600A86E65 /* bg@2x.png */,
 				653F918419B45C5000A86E65 /* mute@2x.png */,
@@ -182,6 +258,7 @@
 				81BCFAD219A9F5A100C68737 /* CurtainViewController.m */,
 				81BCFAB119A9F50300C68737 /* Images.xcassets */,
 				81BCFA9D19A9F50300C68737 /* Supporting Files */,
+				650E237E19C95C330027AF5A /* GlobalConfig.h */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -306,16 +383,33 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				652A087D19B6E18A001E6125 /* DVD_25@2x.png in Resources */,
+				65CF6AC319BED2F300CDAF76 /* CURTAIN_46@2x.png in Resources */,
 				81BCFAB219A9F50300C68737 /* Images.xcassets in Resources */,
 				653F918919B45C5600A86E65 /* bg@2x.png in Resources */,
 				653F917F19B4443D00A86E65 /* down@2x.png in Resources */,
 				653F918719B45C5000A86E65 /* tvVid@2x.png in Resources */,
 				81BCFAA119A9F50300C68737 /* InfoPlist.strings in Resources */,
+				652A087119B6E18A001E6125 /* CURTAIN_11@2x.png in Resources */,
+				652A087E19B6E18A001E6125 /* DVD_27@2x.png in Resources */,
 				653F918319B4459600A86E65 /* channel@2x.png in Resources */,
+				652A087219B6E18A001E6125 /* CURTAIN_29@2x.png in Resources */,
+				652A087819B6E18A001E6125 /* DVD_11@2x.png in Resources */,
+				652A088119B6E18A001E6125 /* LIGHT_09@2x.png in Resources */,
 				653F918219B4459600A86E65 /* voice@2x.png in Resources */,
+				652A087B19B6E18A001E6125 /* DVD_21@2x.png in Resources */,
+				652A087719B6E18A001E6125 /* DVD_06@2x.png in Resources */,
+				652A087919B6E18A001E6125 /* DVD_13@2x.png in Resources */,
 				653F917E19B4443D00A86E65 /* up@2x.png in Resources */,
+				65CF6AC419BED2F300CDAF76 /* CURTAIN_48@2x.png in Resources */,
 				81BCFAAA19A9F50300C68737 /* Main.storyboard in Resources */,
+				652A087C19B6E18A001E6125 /* DVD_23@2x.png in Resources */,
+				652A087A19B6E18A001E6125 /* DVD_15@2x.png in Resources */,
+				652A087319B6E18A001E6125 /* CURTAIN_35@2x.png in Resources */,
+				652A087F19B6E18A001E6125 /* LIGHT_03@2x.png in Resources */,
+				652A088019B6E18A001E6125 /* LIGHT_07@2x.png in Resources */,
 				653F917B19B4412A00A86E65 /* onOrOff@2x.png in Resources */,
+				652A087619B6E18A001E6125 /* DVD_03@2x.png in Resources */,
 				653F918619B45C5000A86E65 /* mute@2x.png in Resources */,
 				653F918B19B45DA800A86E65 /* btnbg.png in Resources */,
 			);

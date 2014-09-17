@@ -20,6 +20,7 @@
         NSString *message = [[NSString alloc] initWithFormat:@"%ld", (long)sender.tag];
         NSData *data = [message dataUsingEncoding:NSUTF8StringEncoding];
         [[NetWorkDelegate sharedInstance] sendRawData:data callBack:nil];
+    
 }
 
 -(BOOL)checkIpAddress:(NSString*) ip
