@@ -23,11 +23,13 @@ static CoordinationViewController *sharedCoordinator;
 -(void)initialize{
     _canvasViewController=[[CanvesViewController alloc]init];
     _activeViewcontroller=_canvasViewController;
+    [self.view addSubview:_canvasViewController.view];
 }
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [self initialize];
     [self initView];
     // Do any additional setup after loading the view.
 }
@@ -42,17 +44,13 @@ static CoordinationViewController *sharedCoordinator;
 
 -(void)initView{
     UIToolbar *toolBar=[[UIToolbar alloc]initWithFrame:CGRectMake(0, SCREEN_HEIHT-50, SCREEN_WIDTH, 50)];
-    [self.view addSubview:toolBar];
+    [_canvasViewController.view addSubview:toolBar];
     toolBar.backgroundColor=[UIColor purpleColor];
     
     UIBarButtonItem *startItem=[[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemFlexibleSpace target:self action:nil];
     UIBarButtonItem *endItem=[[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemFlexibleSpace target:self action:nil];
     
-    UIBarButtonItem *space1=[[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemFixedSpace target:self action:nil];
-    UIBarButtonItem *space2=[[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemFixedSpace target:self action:nil];
-    UIBarButtonItem *space3=[[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemFixedSpace target:self action:nil];
-    UIBarButtonItem *space4=[[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemFixedSpace target:self action:nil];
-    UIBarButtonItem *space5=[[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemFixedSpace target:self action:nil];
+
     
     //回收站
     UIBarButtonItem *item1=[[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemTrash target:self action:@selector(itemClick:)];
@@ -63,13 +61,13 @@ static CoordinationViewController *sharedCoordinator;
     UIBarButtonItem *item3=[[UIBarButtonItem alloc]initWithImage:[UIImage imageNamed:@"open"] style:UIBarButtonItemStylePlain target:self action:@selector(itemClick:)];
     //颜色
     UIBarButtonItem *item4=[[UIBarButtonItem alloc]initWithImage:[UIImage imageNamed:@"palette"] style:UIBarButtonItemStylePlain target:self action:@selector(itemClick:)];
+    item4.tag=kButtonTagOpenPlatterView;
     //undo
     UIBarButtonItem *item5=[[UIBarButtonItem alloc]initWithImage:[UIImage imageNamed:@"undo"] style:UIBarButtonItemStylePlain target:self action:@selector(itemClick:)];
     //redo
     UIBarButtonItem *item6=[[UIBarButtonItem alloc]initWithImage:[UIImage imageNamed:@"redo"] style:UIBarButtonItemStylePlain target:self action:@selector(itemClick:)];
     
-    toolBar.items=@[startItem,item1,space1,item2,space2,item3,space3,item4,space4,item5,space5,item6,endItem];
-    
+    toolBar.items=@[startItem,item1,startItem,item2,startItem,item3,startItem,item4,startItem,item5,startItem,item6,endItem];
     
 }
 
@@ -104,7 +102,7 @@ static CoordinationViewController *sharedCoordinator;
                 break;
         }
     }else{
-        [_canvasViewController dismissViewControllerAnimated:YES completion:nil];
+        [_canvasViewController dismissViewControllerAnimated:YES completion:^{}];
         _activeViewcontroller=_canvasViewController;
     }
 }
