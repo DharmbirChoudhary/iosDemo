@@ -5,13 +5,11 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>D7A86549-23F1-45C1-9B77-1422A23B1CA4</string>
+	<string>A8E0B4A0-D4A4-4089-8EF8-65C1329BABD1</string>
 	<key>IDESourceControlProjectName</key>
 	<string>PodDemo1</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>0C7A5C20-2A9E-470C-A2D1-93CC3D0890DD</key>
-		<string>file:///Users/Andrew/Library/Caches/CocoaPods/GitHub/d832939e07058c3700af6fec8d0b8802628ed177/</string>
 		<key>FB1EB94C-5FD6-4764-A169-998C95E2B87A</key>
 		<string>ssh://github.com/andrew-anlu/iosDemo.git</string>
 	</dict>
@@ -19,8 +17,6 @@
 	<string>PodDemo1/PodDemo1.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>0C7A5C20-2A9E-470C-A2D1-93CC3D0890DD</key>
-		<string>../Pods/SAMBadgeView</string>
 		<key>FB1EB94C-5FD6-4764-A169-998C95E2B87A</key>
 		<string>../..</string>
 	</dict>
@@ -39,14 +35,6 @@
 			<string>FB1EB94C-5FD6-4764-A169-998C95E2B87A</string>
 			<key>IDESourceControlWCCName</key>
 			<string>iosDemo</string>
-		</dict>
-		<dict>
-			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.git</string>
-			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>0C7A5C20-2A9E-470C-A2D1-93CC3D0890DD</string>
-			<key>IDESourceControlWCCName</key>
-			<string>SAMBadgeView</string>
 		</dict>
 	</array>
 </dict>

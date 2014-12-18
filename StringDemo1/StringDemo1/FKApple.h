@@ -8,6 +8,14 @@
 
 #import <Foundation/Foundation.h>
 
-@interface FKApple : NSObject
+@interface FKApple : NSObject<NSCoding>
+
+@property (nonatomic,copy) NSString *color;
+
+@property (nonatomic)double weight;
+
+@property (nonatomic)int size;
+
+-(id)initWIthcolor:(NSString *)color weight:(double)weight size:(int)size;
 
 @end

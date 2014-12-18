@@ -21,6 +21,8 @@
 		65F9E35319A2E7D0000505F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F9E33519A2E7D0000505F1 /* UIKit.framework */; };
 		65F9E35B19A2E7D0000505F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 65F9E35919A2E7D0000505F1 /* InfoPlist.strings */; };
 		65F9E35D19A2E7D0000505F1 /* StringDemo1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F9E35C19A2E7D0000505F1 /* StringDemo1Tests.m */; };
+		65F9E36819A2FC57000505F1 /* FKApple.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F9E36719A2FC57000505F1 /* FKApple.m */; };
+		65F9E36A19A3158A000505F1 /* myDict.archive in Resources */ = {isa = PBXBuildFile; fileRef = 65F9E36919A3158A000505F1 /* myDict.archive */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		65F9E35819A2E7D0000505F1 /* StringDemo1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StringDemo1Tests-Info.plist"; sourceTree = "<group>"; };
 		65F9E35A19A2E7D0000505F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		65F9E35C19A2E7D0000505F1 /* StringDemo1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StringDemo1Tests.m; sourceTree = "<group>"; };
+		65F9E36619A2FC57000505F1 /* FKApple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKApple.h; sourceTree = "<group>"; };
+		65F9E36719A2FC57000505F1 /* FKApple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKApple.m; sourceTree = "<group>"; };
+		65F9E36919A3158A000505F1 /* myDict.archive */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = myDict.archive; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +117,7 @@
 		65F9E33719A2E7D0000505F1 /* StringDemo1 */ = {
 			isa = PBXGroup;
 			children = (
+				65F9E36919A3158A000505F1 /* myDict.archive */,
 				65F9E34019A2E7D0000505F1 /* AppDelegate.h */,
 				65F9E34119A2E7D0000505F1 /* AppDelegate.m */,
 				65F9E34319A2E7D0000505F1 /* Main.storyboard */,
@@ -119,6 +125,8 @@
 				65F9E34719A2E7D0000505F1 /* ViewController.m */,
 				65F9E34919A2E7D0000505F1 /* Images.xcassets */,
 				65F9E33819A2E7D0000505F1 /* Supporting Files */,
+				65F9E36619A2FC57000505F1 /* FKApple.h */,
+				65F9E36719A2FC57000505F1 /* FKApple.m */,
 			);
 			path = StringDemo1;
 			sourceTree = "<group>";
@@ -228,6 +236,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65F9E36A19A3158A000505F1 /* myDict.archive in Resources */,
 				65F9E34A19A2E7D0000505F1 /* Images.xcassets in Resources */,
 				65F9E33C19A2E7D0000505F1 /* InfoPlist.strings in Resources */,
 				65F9E34519A2E7D0000505F1 /* Main.storyboard in Resources */,
@@ -252,6 +261,7 @@
 				65F9E34819A2E7D0000505F1 /* ViewController.m in Sources */,
 				65F9E34219A2E7D0000505F1 /* AppDelegate.m in Sources */,
 				65F9E33E19A2E7D0000505F1 /* main.m in Sources */,
+				65F9E36819A2FC57000505F1 /* FKApple.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

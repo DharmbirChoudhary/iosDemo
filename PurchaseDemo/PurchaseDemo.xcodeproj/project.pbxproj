@@ -1,0 +1,207 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		65F7626519EB6BE7000F1EDB /* PurchaseDemo */ = {isa = PBXFileReference; explicitFileType = folder; includeInIndex = 0; path = PurchaseDemo; sourceTree = BUILT_PRODUCTS_DIR; };
+		65F7626919EB6BE7000F1EDB /* ContentInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ContentInfo.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		65F7625E19EB6BE7000F1EDB = {
+			isa = PBXGroup;
+			children = (
+				65F7626719EB6BE7000F1EDB /* PurchaseDemo */,
+				65F7626619EB6BE7000F1EDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65F7626619EB6BE7000F1EDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65F7626519EB6BE7000F1EDB /* PurchaseDemo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65F7626719EB6BE7000F1EDB /* PurchaseDemo */ = {
+			isa = PBXGroup;
+			children = (
+				65F7626819EB6BE7000F1EDB /* Supporting Files */,
+			);
+			path = PurchaseDemo;
+			sourceTree = "<group>";
+		};
+		65F7626819EB6BE7000F1EDB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				65F7626919EB6BE7000F1EDB /* ContentInfo.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65F7626419EB6BE7000F1EDB /* PurchaseDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65F7626C19EB6BE7000F1EDB /* Build configuration list for PBXNativeTarget "PurchaseDemo" */;
+			buildPhases = (
+				65F7626319EB6BE7000F1EDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PurchaseDemo;
+			productName = PurchaseDemo;
+			productReference = 65F7626519EB6BE7000F1EDB /* PurchaseDemo */;
+			productType = "com.apple.product-type.in-app-purchase-content";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65F7625F19EB6BE7000F1EDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Andrew;
+			};
+			buildConfigurationList = 65F7626219EB6BE7000F1EDB /* Build configuration list for PBXProject "PurchaseDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 65F7625E19EB6BE7000F1EDB;
+			productRefGroup = 65F7626619EB6BE7000F1EDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65F7626419EB6BE7000F1EDB /* PurchaseDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65F7626319EB6BE7000F1EDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		65F7626A19EB6BE7000F1EDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+			};
+			name = Debug;
+		};
+		65F7626B19EB6BE7000F1EDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+			};
+			name = Release;
+		};
+		65F7626D19EB6BE7000F1EDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PurchaseDemo/ContentInfo.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/InAppPurchaseContent";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = "";
+			};
+			name = Debug;
+		};
+		65F7626E19EB6BE7000F1EDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PurchaseDemo/ContentInfo.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/InAppPurchaseContent";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65F7626219EB6BE7000F1EDB /* Build configuration list for PBXProject "PurchaseDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65F7626A19EB6BE7000F1EDB /* Debug */,
+				65F7626B19EB6BE7000F1EDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65F7626C19EB6BE7000F1EDB /* Build configuration list for PBXNativeTarget "PurchaseDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65F7626D19EB6BE7000F1EDB /* Debug */,
+				65F7626E19EB6BE7000F1EDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65F7625F19EB6BE7000F1EDB /* Project object */;
+}

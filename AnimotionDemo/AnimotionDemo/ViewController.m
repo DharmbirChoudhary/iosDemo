@@ -87,6 +87,7 @@
 }
 
 -(void)scale:(UIButton *)btn{
+    //TODO: 
     CAKeyframeAnimation *anim=[CAKeyframeAnimation animationWithKeyPath:@"transform"];
     //设置CAKeyFrameAnimation 控制transform属性依次经过的值
     anim.values=@[[NSValue valueWithCATransform3D:imageLayer.transform],
@@ -96,10 +97,10 @@
     anim.duration=5;
     anim.removedOnCompletion=YES;
     [imageLayer addAnimation:anim forKey:nil];
-    
 }
 
 -(void)group:(UIButton *)btn{
+    //???
     CGPoint fromPoint=imageLayer.position;
     CGPoint toPoint=CGPointMake(280, fromPoint.y+80);
     //创建不断改变的CALayer的position属性的属性动画

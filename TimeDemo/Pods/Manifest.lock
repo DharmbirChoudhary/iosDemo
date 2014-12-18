@@ -1,0 +1,10 @@
+PODS:
+  - UIView+SearchHierarchy (1.0.0)
+
+DEPENDENCIES:
+  - UIView+SearchHierarchy (~> 1.0.0)
+
+SPEC CHECKSUMS:
+  UIView+SearchHierarchy: 22b28ff6f6387753b7ca865bd0ef72327f1dedf2
+
+COCOAPODS: 0.34.4

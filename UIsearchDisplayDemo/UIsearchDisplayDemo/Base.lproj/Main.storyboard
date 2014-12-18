@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6246" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6239"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="Tht-NX-zjX">
+                                <rect key="frame" x="28" y="48" width="600" height="44"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="Hq7-Si-SBd">
+                                <rect key="frame" x="-24" y="219" width="600" height="44"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="KaW-xc-QpS"/>
+                                </connections>
+                            </searchBar>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="oVh-F9-AX6">
+                                <rect key="frame" x="-33" y="111" width="600" height="44"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="zCb-aW-oXd"/>
+                                </connections>
+                            </searchBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="Tht-NX-zjX"/>
+                                <exclude reference="Hq7-Si-SBd"/>
+                                <exclude reference="oVh-F9-AX6"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="searchDisplayController" destination="Qgg-cR-HCj" id="TqD-dM-7l7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <searchDisplayController id="tC7-c5-bsm">
+                    <connections>
+                        <outlet property="delegate" destination="vXZ-lx-hvc" id="pvn-pG-M6g"/>
+                        <outlet property="searchBar" destination="Hq7-Si-SBd" id="Ghf-LL-xMz"/>
+                        <outlet property="searchContentsController" destination="vXZ-lx-hvc" id="j5K-qO-0R6"/>
+                        <outlet property="searchResultsDataSource" destination="vXZ-lx-hvc" id="8ij-fd-K1s"/>
+                        <outlet property="searchResultsDelegate" destination="vXZ-lx-hvc" id="N25-0N-Qfd"/>
+                    </connections>
+                </searchDisplayController>
+                <searchDisplayController id="Qgg-cR-HCj">
+                    <connections>
+                        <outlet property="delegate" destination="vXZ-lx-hvc" id="HvP-2e-8EL"/>
+                        <outlet property="searchBar" destination="oVh-F9-AX6" id="8WL-sV-Uoi"/>
+                        <outlet property="searchContentsController" destination="vXZ-lx-hvc" id="Feg-sF-Yr3"/>
+                        <outlet property="searchResultsDataSource" destination="vXZ-lx-hvc" id="934-Dd-zpJ"/>
+                        <outlet property="searchResultsDelegate" destination="vXZ-lx-hvc" id="XbS-2S-lFl"/>
+                    </connections>
+                </searchDisplayController>
+            </objects>
+        </scene>
+    </scenes>
+</document>

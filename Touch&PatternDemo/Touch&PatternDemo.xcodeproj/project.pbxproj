@@ -11,6 +11,8 @@
 		650941D519DA4E3D00B1DA7A /* Stroke.m in Sources */ = {isa = PBXBuildFile; fileRef = 650941D419DA4E3D00B1DA7A /* Stroke.m */; };
 		650941D919DA90C000B1DA7A /* MarkEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 650941D819DA90C000B1DA7A /* MarkEnumerator.m */; };
 		650941DD19DA917C00B1DA7A /* NSMutableArray+Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = 650941DC19DA917C00B1DA7A /* NSMutableArray+Stack.m */; };
+		650941E019DA97D900B1DA7A /* CanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 650941DF19DA97D900B1DA7A /* CanvasView.m */; };
+		650941E319DA989B00B1DA7A /* MarkRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 650941E219DA989B00B1DA7A /* MarkRenderer.m */; };
 		65E9227919DA4539000E61FA /* Vertex.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E9227819DA4539000E61FA /* Vertex.m */; };
 		65E9BF5E19D7EC0E00FD05B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E9BF5D19D7EC0E00FD05B8 /* Foundation.framework */; };
 		65E9BF6019D7EC0E00FD05B8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E9BF5F19D7EC0E00FD05B8 /* CoreGraphics.framework */; };
@@ -63,6 +65,10 @@
 		650941D819DA90C000B1DA7A /* MarkEnumerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarkEnumerator.m; sourceTree = "<group>"; };
 		650941DB19DA917C00B1DA7A /* NSMutableArray+Stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Stack.h"; sourceTree = "<group>"; };
 		650941DC19DA917C00B1DA7A /* NSMutableArray+Stack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Stack.m"; sourceTree = "<group>"; };
+		650941DE19DA97D900B1DA7A /* CanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasView.h; sourceTree = "<group>"; };
+		650941DF19DA97D900B1DA7A /* CanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasView.m; sourceTree = "<group>"; };
+		650941E119DA989B00B1DA7A /* MarkRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkRenderer.h; sourceTree = "<group>"; };
+		650941E219DA989B00B1DA7A /* MarkRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarkRenderer.m; sourceTree = "<group>"; };
 		65E9227219DA4104000E61FA /* MarkVisitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarkVisitor.h; sourceTree = "<group>"; };
 		65E9227319DA424F000E61FA /* Mark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mark.h; sourceTree = "<group>"; };
 		65E9227719DA4539000E61FA /* Vertex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vertex.h; sourceTree = "<group>"; };
@@ -172,6 +178,8 @@
 			isa = PBXGroup;
 			children = (
 				65E9227219DA4104000E61FA /* MarkVisitor.h */,
+				650941E119DA989B00B1DA7A /* MarkRenderer.h */,
+				650941E219DA989B00B1DA7A /* MarkRenderer.m */,
 			);
 			name = Visitor;
 			sourceTree = "<group>";
@@ -305,6 +313,8 @@
 			children = (
 				65E9BFC819D8116200FD05B8 /* CommandSlider.h */,
 				65E9BFC919D8116200FD05B8 /* CommandSlider.m */,
+				650941DE19DA97D900B1DA7A /* CanvasView.h */,
+				650941DF19DA97D900B1DA7A /* CanvasView.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -428,7 +438,9 @@
 				65E9227919DA4539000E61FA /* Vertex.m in Sources */,
 				650941D519DA4E3D00B1DA7A /* Stroke.m in Sources */,
 				65E9BFB319D8000500FD05B8 /* Comman.m in Sources */,
+				650941E319DA989B00B1DA7A /* MarkRenderer.m in Sources */,
 				65E9BF9419D7EC6000FD05B8 /* CoordinationViewController.m in Sources */,
+				650941E019DA97D900B1DA7A /* CanvasView.m in Sources */,
 				65E9BFBD19D8031300FD05B8 /* ThumbnailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
